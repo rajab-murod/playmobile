@@ -31,7 +31,7 @@ PLAY_MOBILE_SETTINGS = {
     'PREFIX': '',     # example : abc - Organization name. no more 20 characters.
     'ORIGINATOR': ''     # if this field is empty default 3700 or set your originator name
 }
-
+```
 
 ## Documentation
  - playmobile.uz [docs](https://playmobile.uz/instr/Broker_API_18.11.2019.pdf)
