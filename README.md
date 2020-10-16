@@ -32,7 +32,16 @@ PLAY_MOBILE_SETTINGS = {
     'ORIGINATOR': ''     # if this field is empty default 3700 or set your originator name
 }
 ```
+```python
+# urls.py 
 
+from django.urls import path
+from playmobile.views import PlayMobileApiView
+
+urlpatterns = [
+    path('sender/', PlayMobileApiView.as_view(), name='send')
+]
+```
 ## Documentation
  - playmobile.uz [docs](https://playmobile.uz/instr/Broker_API_18.11.2019.pdf)
  - django-rest-framework [docs](https://www.django-rest-framework.org/)
